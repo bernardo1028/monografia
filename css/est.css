@@ -1,0 +1,126 @@
+:root {
+    --color:rgb(238, 177, 116);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    background: var(--color);
+}
+.regreso{
+    width: 30px;
+    height: 25px;
+    
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:  rgb(215, 215, 215);
+    
+}
+.inform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.inform .datos {
+    max-width: 750px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250px;
+    padding: 20px;
+    grid-gap: 1rem;
+}
+
+.inform .datos img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    
+
+}
+
+.inform .datos .img-a{
+    background: rgb(250, 250, 250);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.65rem;
+}
+
+.inform .datos .img-b{
+    background: rgb(250, 250, 250);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.65rem;
+}
+
+.inform .datos .img-c{
+    background: rgb(250, 250, 250);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.65rem;
+
+}
+.inform .datos .img-d{
+    background: rgb(250, 250, 250);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.65rem;
+}
+.inform .datos .img-e{
+    background: rgb(250, 250, 250);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.65rem;
+    
+
+}
+.inform .datos .img-f{
+    background: rgb(250, 250, 250);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.65rem;
+    grid-column-start: span 2;
+}
+.inform .datos .img-h{
+    background: rgb(250, 250, 250);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.65rem;
+}
+.inform .datos .img-i{
+    background: rgb(250, 250, 250);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.65rem;
+}
+.inform .datos .img-j{
+    background: rgb(250, 250, 250);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.65rem;
+}
+.inform .datos .img-l{
+    background: rgb(250, 250, 250);
+    text-align: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.65rem;
+}
